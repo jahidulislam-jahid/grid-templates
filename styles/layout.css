@@ -34,3 +34,29 @@
     "footer footer footer footer"
     ;
 }
+
+@media screen and (max-width: 576px){
+    .container{
+        gap: 20px;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "sidebar"
+        "advertise"
+        "footer"
+        ;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:992px){
+    .container{
+        gap: 20px;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "sidebar main main"
+        "advertise footer footer"
+        ;
+    }
+}
